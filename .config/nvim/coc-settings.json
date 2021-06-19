@@ -1,0 +1,17 @@
+{
+	"suggest.noselect": false,
+	"clangd.semanticHighlighting": true,
+	"clangd.arguments": [
+		"-header-insertion=never"
+	],
+	"latex.build.args": [
+		"-xelatex",
+		"-shell-escape",
+		"-verbose",
+		"-file-line-error",
+		"-synctex=1",
+		"-8bit",
+		"-interaction=nonstopmode"
+	],
+	"explorer.icon.enableNerdfont": true
+}
